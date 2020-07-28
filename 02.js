@@ -1,12 +1,12 @@
 const axios = require('axios');
 const baseUrl = 'https://jsonplaceholder.typicode.com/'
 
-// Get User
+// Get Users
 const getUsers = () =>
     axios.get(baseUrl + 'users')
     .then(response => response)
     .catch(e => console.log(e))
-// Get User
+// Get Posts
 const getPosts = () =>
     axios.get(baseUrl + 'posts')
     .then(response => response)
